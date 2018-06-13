@@ -1,25 +1,30 @@
-.App {
+body {
+  background-color: bisque;
+}
+
+header {
+  padding: 40px;
   text-align: center;
+  box-shadow: 1px 2px 10px 10px black;
+  background-color: blueviolet
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+#imageContainer {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  justify-items: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
+.imgClick {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-top: 100%;
 }
 
 @keyframes App-logo-spin {
