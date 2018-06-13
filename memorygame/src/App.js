@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Image from "./components/Image"
+
 import './App.css';
 
 class App extends Component {
@@ -8,9 +9,10 @@ class App extends Component {
       <div>
         <header>
           <h2>The Memory Game Where You Click on Stuff and it Moves Around!</h2>
+
         </header>
         <div id="imageContainer">
-
+          <Image/>
         </div>
       </div>
     );
